@@ -42,7 +42,7 @@ $$\max_T \ \pi(T) = R(T) - pT$$
 
 The first-order condition is:
 
-$$R'(T^*) = p$$
+$$R'(T) = p$$
 
 Because we assumed that $R''(T) < 0$ (diminishing marginal returns), this solution is a maximum.
 
@@ -55,3 +55,24 @@ In the unconstrained model above, the professional soccer club invests in talent
 
 #### CONSTRAINED (SALARY CAP) PROBLEM:
 
+With a salary cap now in place, the professional soccer club now solves the optimization problem:
+
+$$\max_T \ \pi(T) = R(T) - pT \quad \text{s.t.} \quad pT \le C$$
+
+The corresponding Lagrangian is:
+
+$$\mathcal{L} = R(T) - pT + \lambda (C - pT)$$
+
+The first-order condition simplifies to:
+
+$$\frac{\partial T}{\partial L} = R'(T) - p - \lambda p = 0$$
+
+$$R'(T) = p(1+\lambda)$$
+
+If the salary cap is non-binding, then $C - pT > 0$, so the FOC is:
+
+$$R'(T) = p$$
+
+If the salary cap is binding, then $C - pT = 0$, meaning:
+
+$$T = \frac{C}{p}$$
