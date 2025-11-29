@@ -8,15 +8,15 @@ How does a salary cap affect a professional soccer club's optimal roster investm
 
 Before setting up a model that can accurately represent a professional soccer club's roster investment choices and profit under a salary cap, I must first define several variables relating to the types of players the club signs (talent level), the wages these players earn, the salary cap in place, the revenue function, and the profit formula:
 
-T = aggregate talent level of players
+$T = \text{aggregate talent level of players}$
 
-R(T) = revenue function
+$R(T) = \text{revenue function}$
 
-p = players' wage
+$p = \text{players' wage}$
 
-C = salary cap
+$C = \text{salary cap}$
 
-$\pi$ = R(T) - pT, s.t. $pT \le C$
+$\pi(T) = R(T) - pT, \quad \text{s.t. } pT \le C$
 
 #### ASSUMPTIONS:
 
@@ -26,10 +26,32 @@ Assumption #1: A single representative club's objective is to maximize short-run
 
 Assumption #2: $T \ge 0$ (i.e. aggregate talent/quality within a roster cannot be negative in reality)
 
-Assumption #3: $p > 0$, so total wage = pT (as implied by the salary cap, $pT \le C$)
+Assumption #3: $p > 0$, so $\text{total wage} = pT$ (as implied by the salary cap, $pT \le C$)
 
-Assumption #4: Match-related revenue is an increasing, concave function of talent (i.e. R = R(T))
+Assumption #4: Match-related revenue is an increasing, concave function of talent: $R = R(T)$
 
 Assumption #5: $R'(T) > 0$ and $R''(T) < 0$ (i.e. diminishing marginal returns of extra talent)
 
 Assumption #6: Non-wage costs are ignored
+
+#### UNCONSTRAINED PROBLEM:
+
+The professional soccer club's uncontrained optimization problem is:
+
+$$\max_T \ \pi(T) = R(T) - pT$$
+
+The first-order condition is:
+
+$$R'(T^*) = p$$
+
+Because we assumed that $R''(T) < 0$ (diminishing marginal returns), this solution is a maximum.
+
+
+If $R'(0) \le p$, the solution is a corner and the club chooses:
+
+$$T^* = 0$$
+
+In the unconstrained model above, the professional soccer club invests in talent until the marginal revenue product of talent equals its marginal cost, $R'(T^*) = p$, meaning the final unit of talent adds exactly as much revenue as its costs. Because revenue demonstrates diminishing marginal returns, early units of talent such as star signings generate disproportionately large benefits, while additional "depth" players contribute less. This also implies that if $R'(0) < p$, the club optimally hires no talent, reflecting why low-revenue clubs often underinvest in player recruitment or fail to compete with other clubs. Most importantly, this unconstrained model shows that without a salary cap, nothing limits richer clubs (e.g. Manchester City, PSG in real life) from accumulating far more talent than others, creating competitive imbalance and motivating league interventions such as caps or revenue sharing.
+
+#### CONSTRAINED (SALARY CAP) PROBLEM:
+
