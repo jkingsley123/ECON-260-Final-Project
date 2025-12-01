@@ -16,6 +16,8 @@ $T = \text{aggregate talent level of players}$
 
 $R(T) = \text{revenue function}$
 
+$MR(T) = \text{marginal revenue function}$
+
 $p = \text{players' wage}$
 
 $C = \text{salary cap}$
