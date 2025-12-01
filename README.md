@@ -62,6 +62,8 @@ If $R'(0) \le p$, the marginal revenue from the first unit of talent isn't enoug
 
 $$T^* = 0$$
 
+On the other hand, if the marginal revenue from the first unit of talent is enough to cover its cost, then the club's optimal choice is to invest in the exact level of talent that produces $MR(T) = p$.
+
 In the unconstrained model above, the professional soccer club invests in talent until the marginal revenue product of talent equals its marginal cost, $R'(T^*) = p$, meaning the final unit of talent adds exactly as much revenue as its costs. Because revenue demonstrates diminishing marginal returns, early units of talent such as star signings generate disproportionately large benefits, while additional "depth" players contribute less. This also implies that if $R'(0) \le p$, the club optimally hires no talent, reflecting why low-revenue clubs often underinvest in player recruitment or fail to compete with other clubs. Most importantly, this unconstrained model shows that without a salary cap, nothing limits richer clubs from accumulating far more talent than others, creating competitive imbalance and motivating league interventions such as caps or revenue sharing.
 
 #### CONSTRAINED (SALARY CAP) PROBLEM:
