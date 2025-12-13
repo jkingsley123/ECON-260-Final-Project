@@ -66,7 +66,7 @@ $$T^* = 0$$
 
 On the other hand, if the marginal revenue from the first unit of talent is enough to cover its cost, then the club's optimal choice is to invest in the exact level of talent that produces $MR(T) = p$. In the graph below, for example, the club's optimal choice is $T^* = 6.75$, as that is the point on the graph where marginal revenue and players' wage intersect.
 
-![image alt](https://github.com/jkingsley123/ECON-260-Final-Project/blob/99760db0febe9bed7e96ee1d494e0cb4997651b2/Optimal%20Talent%20Decision.png)
+![image alt](https://github.com/jkingsley123/ECON-260-Final-Project/blob/main/Optimal%20Talent%20Decision.pdf)
 
 In the unconstrained model above, the professional soccer club invests in talent until the marginal revenue product of talent equals its marginal cost, $R'(T^*) = p$, meaning the final unit of talent adds exactly as much revenue as its costs. Because revenue demonstrates diminishing marginal returns, early units of talent such as star signings generate disproportionately large benefits, while additional "depth" players contribute less. This also implies that if $R'(0) \le p$, the club optimally hires no talent, reflecting why low-revenue clubs often underinvest in player recruitment or fail to compete with other clubs. Most importantly, this unconstrained model shows that without a salary cap, nothing limits richer clubs from accumulating far more talent than others, creating competitive imbalance and motivating league interventions such as caps or revenue sharing.
 
